@@ -1,5 +1,7 @@
 # Bookseeker
 ## [Description](#table-of-content)
+A book search engine for book lovers.
+The purpose of this project is to take a fully functioning Google Books API search engine built with a RESTful API, and refactor it to be a GraphQL API built with Apollo Server. The app was built using the MERN stack, with a React front end, MongoDB database, and Node.js/Express.js server and API.
 
 ## Table-of-Content
 * [Description](#description)
@@ -10,14 +12,15 @@
 
 ## [Installation](#table-of-content)
 This project is build from the [starter code](https://github.com/coding-boot-camp/solid-broccoli)
+This is deployed on Heroku.
 
 
 
 ## [Usage](#table-of-content)
-You can use search engine. You can type in the names of any books you want. 
+You can use search engine. You can type in the names of any books you want.
 
 ## [License](#table-of-content)
-
+MIT
 
 ## [Credits](#table-of-content)
 Without these guidances and references, my project would not exist.
