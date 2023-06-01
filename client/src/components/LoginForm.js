@@ -2,7 +2,6 @@
 import React, { useState, useEffect } from 'react';
 import { Form, Button, Alert } from 'react-bootstrap';
 
-//import { loginUser } from '../utils/API';
 import Auth from '../utils/auth';
 
 // Replace the loginUser() functionality imported from the API file with the LOGIN_USER mutation functionality.

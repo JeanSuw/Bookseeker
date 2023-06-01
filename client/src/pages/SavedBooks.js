@@ -7,7 +7,6 @@ import {
   Col
 } from 'react-bootstrap';
 
-// import { getMe, deleteBook } from '../utils/API';
 import Auth from '../utils/auth';
 import { removeBookId } from '../utils/localStorage';
 
@@ -16,8 +15,6 @@ import { REMOVE_BOOK } from "../utils/mutations";
 import { useQuery, useMutation } from "@apollo/react-hooks";
 
 const SavedBooks = () => {
-  //const [userData, setUserData] = useState({});
-
   // use the useQuery() Hook to execute the GET_ME query on load and save it to a variable named userData
   const { loading, data } = useQuery(GET_ME);
   let userData = data?.me || {};
