@@ -15,7 +15,13 @@ This project is build from the [starter code](https://github.com/coding-boot-cam
 This is deployed on Heroku.
 
 
-
+```bash
+npm install apollo-server-express@2.15.0
+npm i apollo-link-context
+npm i @apollo/client
+npm i @apollo/react-hooks
+npm i apollo-boost
+```
 ## [Usage](#table-of-content)
 You can use search engine. You can type in the names of any books you want.
 
@@ -30,6 +36,8 @@ Without these guidances and references, my project would not exist.
 * 21-MERN/01-Activites/23-Ins_Decode-JWT
 * 21-MERN/01-Activites/25-Ins_Resolver-Context
 * 21-MERN/01-Activites/28-Stu_Mini-Project
+
+* [Module error Apollo](https://stackoverflow.com/questions/60055805/module-not-found-cant-resolve-apollo-link-context-react-apollo-server)
 
 
 
